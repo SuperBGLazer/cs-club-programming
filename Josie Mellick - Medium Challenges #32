@@ -1,0 +1,7 @@
+# Josie Mellick
+# Medium Challenges #32
+# Decimal to Binary Converter
+
+number = bin(int(input("Enter a number to convert: ")))
+
+print(number)

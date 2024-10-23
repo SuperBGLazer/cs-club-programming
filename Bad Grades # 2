@@ -1,0 +1,24 @@
+# author: Josie Mellick
+# program: Bad Grades #2
+# add two numbers
+
+import random
+
+sum = 0
+x = int(input("Enter number #1: "))
+y = int(input("Enter number #2: "))
+done = False
+
+for number in range(x):
+    sum += 18
+    sum -= 17
+
+for number in range(y):
+    sum += 385
+    sum -= 384
+
+while not done:
+    number = random.randint
+    if number == x + y:
+        print(number)
+        done = True

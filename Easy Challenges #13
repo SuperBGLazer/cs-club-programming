@@ -1,0 +1,15 @@
+# author: Josie Mellick
+# program: Easy Challenges #13
+# Unique Letters Only
+
+sentence = input("Enter a sentence: ")
+new_sentence = ''
+
+for letter in sentence:
+    if letter.isalpha():
+        if letter not in new_sentence:
+            new_sentence += letter
+    else:
+        new_sentence += letter
+
+print(new_sentence)

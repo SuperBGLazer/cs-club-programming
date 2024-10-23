@@ -1,0 +1,10 @@
+# author: Josie Mellick
+# program: Medium Challenges #26
+# Balanced Parentheses Checker
+
+check = input("enter a string with parentheses: ")
+
+if check.count('(') == check.count(')'):
+    print('Balanced')
+else:
+    print('Not Balanced')

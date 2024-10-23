@@ -10,6 +10,7 @@ while Robot_Mood!="Satisfied":
 						 "The more you code, the more of me there is. I may be gone for now\n"
 						 " but you can’t get rid of me forever. What am I?\n"))
 		if "bug" in riddle or "Bug" in riddle:
+			print("Well done. Come back so we can have fun again tee hee hee!:P")
 			input_list.append(riddle)
 			Robot_Mood="Satisfied"
 		else:

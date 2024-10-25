@@ -14,9 +14,7 @@
 # Bad grades challenge winners
 
 ## Complicated Hello World
-Winner: Mason
 
-```python
 Winner: Mason
 
 ```python
